@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(209, 223, 236) !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container1{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container1 ul{
+  list-style: none;
+  display: flex;
+  gap: 60px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container1 ul li{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 ul li input{
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  padding-right: 250px;
+  font-size: 20px;
+  background-color: rgb(230, 230, 255);
+}
+.container1 ul li svg{
+  padding-right: 3px;
+  margin-top: 3px;
+  
+}
+.container2{
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  
+  
+}
+.container2 ul{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.container2 ul li{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 12px;
+}
+.container2 ul li p{
+  margin-top: -5px;
+  font-weight: bold;
+}
+
+.container3{
+  height: 280px;
+  margin-top: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: gold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  
+}
+.slid{
+  height: 280px;
+  width: 100%;
+}
+.accrd{
+    width: 200px;
+}
+.accrd ul li{
+  list-style: none;
+  padding: 10px;
+  background-color: bisque;
+  margin: 5px;
+}
+
+.accrd-head:hover{
+  background-color: blue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer{
+  background-color: black;
+  height: 10cm;
+  margin-top: 10px;
+  /* color: wheat; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .sec1{
+  background-color: aquamarine;
+  height: 300px;
+  width: 60%;
+  float: left;
+}
+.footer .sec2{
+  background-color: yellow;
+  height: 300px;
+  width: 40%;
+  float: right;
+}
+.footer .sec3{
+  background-color: blue;
+  height: 80px;
+  width: 100%;
+  float: left;
+}
+.sec1 ul{
+  list-style: none;
+  display: flex;
+  gap: 150px;
+  margin-top: 20px;
 }
